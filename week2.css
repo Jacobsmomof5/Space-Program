@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(55, 0, 252);
+    Background-image: radial-gradient(#f79090, #9198e5);
+    Background-image: linear-gradient(#120303, #f128b5);  
+    background-image: linear-gradient(to right, rgb(255, 0, 149) , rgb(0, 255, 115));
+    
+
+    
+}
+button{
+    width: 150px;
+    height: 150px;
+    background-color:rgb(255, 196, 0);
+    border-radius: 30px;
+    border-color: blueviolet; 
+    font-size: large;  
+    font-style: italic;
+}
+
