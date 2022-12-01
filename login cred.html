@@ -1,0 +1,32 @@
+<!--Amy Jacobs 
+ SC102-Introduction to programming    
+ Space Mission Week #3 Mission Operator log in 12/1/2022. 
+ Operator mus input first, last name and badge number after checkCreds successful input will redirect to week 2 html page. I did update 
+ the css for week 3 to change it up a little bit.
+ -->  
+
+<!DOCTYPE html>
+<html>
+  <head>
+   <!--links my javascript file to this html file--> 
+    <script src="Login.js"></script>
+    <title>UAT Space Page Login</title>
+  </head>
+
+  <body>
+    <h1>
+      Welcome to the UAT Space Page,
+      <br/>
+      Please Log-In
+    </h1>
+    <br />
+    <p id="loginStatus">Status of Log-in...</p>
+    <br />
+    <form id="creditsubmit" onsubmit="return false">
+      First Name: <input type="text" id="fName" /> <br />
+      Last Name: <input type="text" id="lName" /> <br />
+      Badge Number: <input type="number" id="badgeID" /> <br />
+      <input type="submit" onclick="checkCreds();"/>
+    </form>
+  </body>
+</html>
